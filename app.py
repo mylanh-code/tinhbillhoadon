@@ -8,7 +8,7 @@ st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 # Đường dẫn file dữ liệu dùng chung trên máy chủ
 CSV_FILE = "history.csv"
  
-# Thực đơn cố định của nhà hàng Mr. Bình
+# Thực đơn cố định của nhà hàng Ms. XuKa
 menu = {
    "Đồ ăn": {
        "Pizza Hải Sản": 150000,"Pizza cá": 500000,
@@ -20,6 +20,7 @@ menu = {
        "Cánh gà chiên mắm": 75000,
        "Lẩu cá diêu hồng": 200000,
        "Lẩu Thái hải sản": 300000,
+       "Đậu Hủ Chiên": 59000,
    },
    "Thức uống": {
        "Coca Cola": 20000,
